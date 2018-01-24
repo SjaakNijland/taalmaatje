@@ -78,7 +78,7 @@ gulp.task('browser-sync', function() {
     browserSync.init({
 
         // app dir
-        proxy: 'localhost/dough/dist/'
+        proxy: 'localhost/taalmaatje/dist/'
     });
 });
 
