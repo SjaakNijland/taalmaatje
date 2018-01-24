@@ -1,29 +1,110 @@
 
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
 
-require('./bootstrap');
+//////////////////////////////////////////////////
+//
+//	Chat opening and closing
+//
+//////////////////////////////////////////////////
 
-window.Vue = require('vue');
+var chatIsOpen 			= false;
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+var triggerOpenChat		= $('.chat-open');
+var triggerCloseChat	= $('.chat-close');
+var triggerToggleChat	= $('.chat-toggle');
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+var chatOpenClass		= 'text-chat-is-open';
 
-const app = new Vue({
-    el: '#app'
+
+
+// triggers
+triggerOpenChat.click(function(e) {
+	e.preventDefault();
+	openChat();
+});
+triggerCloseChat.click(function(e) {
+	e.preventDefault();
+	closeChat();
+});
+triggerToggleChat.click(function(e) {
+	e.preventDefault();
+	toggleChat();
 });
 
-/**
- * Taalmaatjes custom javascript
- */
 
-require('./register');
-require('./chat');
+// open chat
+function openChat() {
+	$('body').addClass(chatOpenClass);
+	chatIsOpen = true;
+}
+
+// close chat
+function closeChat() {
+	$('body').removeClass(chatOpenClass);
+	chatIsOpen = false;
+}
+
+// toggle open / close chat
+function toggleChat() {
+	if (chatIsOpen == false) {
+		openChat();
+	} else {
+		closeChat();
+	}
+}
+
+
+
+
+
+//////////////////////////////////////////////////
+//
+//	Profile opening and closing
+//
+//////////////////////////////////////////////////
+
+var profileIsOpen 			= false;
+
+var triggerOpenProfile		= $('.profile-open');
+var triggerCloseProfile		= $('.profile-close');
+var triggerToggleProfile	= $('.profile-toggle');
+
+var profileOpenClass		= 'profile-is-open';
+
+
+
+// triggers
+triggerOpenProfile.click(function(e) {
+	e.preventDefault();
+	openProfile();
+});
+triggerCloseProfile.click(function(e) {
+	e.preventDefault();
+	closeProfile();
+});
+triggerToggleProfile.click(function(e) {
+	e.preventDefault();
+	toggleProfile();
+});
+
+
+// open profile
+function openProfile() {
+	$('body').addClass(profileOpenClass);
+	profileIsOpen = true;
+	$('#profile-container .avatar').height($(this).width())
+}
+
+// close profile
+function closeProfile() {
+	$('body').removeClass(profileOpenClass);
+	profileIsOpen = false;
+}
+
+// toggle open / close profile
+function toggleProfile() {
+	if (profileIsOpen == false) {
+		openProfile();
+	} else {
+		closeProfile();
+	}
+}
