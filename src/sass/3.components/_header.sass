@@ -1,0 +1,41 @@
+.header-fixed #header
+    position: fixed
+
+#header
+    position: relative
+    height: $header-height
+    width: 100%
+    display: flex
+    justify-content: space-between
+    background: $fade-to-bottom
+
+    z-index: 100
+
+    .icon
+        font-size: 32px
+        line-height: $header-height
+        width: $header-height
+        color: white
+        text-align: center
+
+
+
+#nav-container
+    width: 100%
+    height: 100%
+    background: white
+    position: absolute
+    top: -100%
+    padding-top: $header-height
+
+    transition: all 0.2s
+    z-index: 90
+
+    &.open
+        top: 0
+
+
+
+body.nav-is-open
+    #nav-container
+        top: 0

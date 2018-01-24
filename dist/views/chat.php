@@ -114,7 +114,7 @@
                             <form id="form-send-text" action="">
 
                                 <input type="text" id="type-area" class="form-control" placeholder="Type a message">
-                                <button type="submit" id="text-send-button" class="btn btn-default"><i class="ion-android-send"></i></button>
+                                <button type="submit" id="text-send-button" class="btn btn-primary"><i class="ion-android-send"></i></button>
 
                             </form>
 

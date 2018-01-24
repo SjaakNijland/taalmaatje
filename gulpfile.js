@@ -49,7 +49,7 @@ gulp.task('sass', function(){
 
 // js
 gulp.task('js', function(){
-    gulp.src('./src/js/app.js')
+    gulp.src('./src/js/**/*.js')
     .pipe(sourcemaps.init())
         .pipe(plumber())
         .pipe(concat('app.min.js'))

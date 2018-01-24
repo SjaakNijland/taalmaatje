@@ -1,16 +1,18 @@
 
 <?php
+
 include 'header.php';
 
 $current_page = isset($_GET['action'])?$_GET['action']:'chat';
 
 switch ($current_page) {
-    case 'chat':
 
+    case 'chat':
         include 'views/chat.php';
-        break;
+    break;
 
 }
 
 include 'footer.php';
+
 ?>
