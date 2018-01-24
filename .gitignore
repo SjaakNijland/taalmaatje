@@ -206,7 +206,3 @@ $RECYCLE.BIN/
 
 # Sourcemaps
 _maps
-
-# Minified CSS and JS
-*app.min.js
-*app.min.css
