@@ -24,7 +24,46 @@
                 <div class="row">
                     <div class="col-xs-12">
 
-                        buttons...
+                        <ul class="buttons no-dots">
+                            <li>
+                                <a href="">
+                                    <div class="icon ion-ios-videocam"></div>
+                                    <span class="title">video chat</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="icon ion-chatbubbles"></div>
+                                    <span class="title">text chat</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="icon ion-android-person"></div>
+                                    <span class="title">profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="icon ion-ios-information"></div>
+                                    <span class="title">information</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="icon ion-android-star"></div>
+                                    <span class="title">favorites</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="icon ion-ios-gear"></div>
+                                    <span class="title">settings</span>
+                                </a>
+                            </li>
+                        </ul>
+
+
 
                     </div>
                 </div>

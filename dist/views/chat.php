@@ -1,7 +1,8 @@
 <div id="profile-container">
 
 	<div class="profile">
-		<div class="avatar" style="background-image: url(img/bboy.png)">
+		
+		<div class="avatar" style="background-image: url(https://media.giphy.com/media/3oKIPc9VZj4ylzjcys/giphy.gif)">
 
 			<div class="icons">
 
