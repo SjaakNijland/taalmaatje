@@ -71,10 +71,10 @@
                 <div class="col-sm-12">
 
         			<ul class="no-dots">
-        				<li><a href="" class="ion-ios-telephone"></a></li>
+        				<li><a href="" class="icon-phone ion-ios-telephone"></a></li>
         				<li><a href="" class="ion-ios-videocam"></a></li>
         				<li><a href="" class="ion-android-microphone"></a></li>
-        				<li><a href="" class="chat-toggle ion-chatbubbles"></a></li>
+        				<li><a href="" class="chat-toggle icon-chat ion-chatbubbles"></a></li>
         			</ul>
 
                 </div>

@@ -68,8 +68,9 @@ body#template-chat
 				font-size: 32px
 				color: white
 
-				&#icon-phone
+				&.icon-phone
 					background: red
+
 
 
 
@@ -162,48 +163,52 @@ body#template-chat
 
 
 
-	//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//
+//	When the text chat is open.
+//
+//////////////////////////////////////////////////
+
+body.text-chat-is-open
+
 	//
-	//	When the text chat is open.
+	//	Video chat
 	//
-	//////////////////////////////////////////////////
+	#video-chat-container
+		display: flex
+		height: 25%
 
-	&.text-chat-is-open
+		#video-chat-them
+			width: 50%
 
-		//
-		//	Video chat
-		//
-		#video-chat-container
-			display: flex
-			height: 25%
+		#video-chat-you
+			position: initial
+			width: 50%
+			height: auto
+			border-radius: 0
+			box-shadow: none
 
-			#video-chat-them
-				width: 50%
+		.controls
+			padding-bottom: 15px
 
-			#video-chat-you
-				position: initial
-				width: 50%
-				height: auto
-				border-radius: 0
-				box-shadow: none
+			ul
+				justify-content: center
 
-			.controls
-				padding-bottom: 15px
+			li
+				padding-right: 7.5px
+				padding-left: 7.5px
 
-				ul
-					justify-content: center
+			a
+				width: 40px
+				line-height: 40px
+				font-size: 20px
 
-				li
-					padding-right: 7.5px
-					padding-left: 7.5px
 
-				a
-					width: 40px
-					line-height: 40px
-					font-size: 20px
+				&.icon-chat
+					background: $gradient-color-1
 
-		//
-		//	Text chat
-		//
-		#text-chat-container
-			display: block
+	//
+	//	Text chat
+	//
+	#text-chat-container
+		display: block
