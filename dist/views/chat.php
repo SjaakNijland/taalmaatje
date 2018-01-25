@@ -1,7 +1,7 @@
 <div id="profile-container">
 
 	<div class="profile">
-		<div class="avatar" style="background-image: url(https://ih0.redbubble.net/image.363915427.3586/flat,800x800,075,t.u2.jpg)">
+		<div class="avatar" style="background-image: url(img/bboy.png)">
 
 			<div class="icons">
 
@@ -17,7 +17,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 
 		</div>
@@ -29,12 +29,23 @@
 			<div class="col-sm-12">
 
 				<div class="info">
-					<h2>Trissa Winslow (26)</h2>
+					<h2>BounceyBabe (26)</h2>
 					<h4><b>About me</b></h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ab saepe sequi vel suscipit, corporis ipsum, laudantium animi distinctio provident dolore quod repellendus, ratione autem, aperiam rem eos dolorum vero.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ab saepe sequi vel suscipit, corporis ipsum, laudantium animi distinctio provident dolore quod repellendus, ratione autem, aperiam rem eos dolorum vero.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ab saepe sequi vel suscipit, corporis ipsum, laudantium animi distinctio provident dolore quod repellendus, ratione autem, aperiam rem eos dolorum vero.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat ab saepe sequi vel suscipit, corporis ipsum, laudantium animi distinctio provident dolore quod repellendus, ratione autem, aperiam rem eos dolorum vero.</p>
+
+					<p>
+						I'm Jason, I go to Rutgers, where I study computer science.
+						I speedrun a number of games, but am mainly known for Super Mario Sunshine.
+					</p>
+					<p>
+						I used to always try to compete for WR times and leaderboard placement but with being a full time student,
+						working a job, doing school activities AND streaming I don't have time to keep up with the curve anymore.
+					</p>
+					<p>
+						That said I always try to improve at my speedgames when I'm streaming,
+						while still trying to maintain an interactive and fun environment.
+						I hope you'll stick around and enjoy the speedgaming journey!
+					</p>
+
 				</div>
 
 			</div>
