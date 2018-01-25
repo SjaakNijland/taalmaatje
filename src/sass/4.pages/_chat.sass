@@ -163,52 +163,52 @@ body#template-chat
 
 
 
-//////////////////////////////////////////////////
-//
-//	When the text chat is open.
-//
-//////////////////////////////////////////////////
-
-body.text-chat-is-open
-
+	//////////////////////////////////////////////////
 	//
-	//	Video chat
+	//	When the text chat is open.
 	//
-	#video-chat-container
-		display: flex
-		height: 25%
+	//////////////////////////////////////////////////
 
-		#video-chat-them
-			width: 50%
+	&.text-chat-is-open
 
-		#video-chat-you
-			position: initial
-			width: 50%
-			height: auto
-			border-radius: 0
-			box-shadow: none
+		//
+		//	Video chat
+		//
+		#video-chat-container
+			display: flex
+			height: 25%
 
-		.controls
-			padding-bottom: 15px
+			#video-chat-them
+				width: 50%
 
-			ul
-				justify-content: center
+			#video-chat-you
+				position: initial
+				width: 50%
+				height: auto
+				border-radius: 0
+				box-shadow: none
 
-			li
-				padding-right: 7.5px
-				padding-left: 7.5px
+			.controls
+				padding-bottom: 15px
 
-			a
-				width: 40px
-				line-height: 40px
-				font-size: 20px
+				ul
+					justify-content: center
+
+				li
+					padding-right: 7.5px
+					padding-left: 7.5px
+
+				a
+					width: 40px
+					line-height: 40px
+					font-size: 20px
 
 
-				&.icon-chat
-					background: $gradient-color-1
+					&.icon-chat
+						background: $gradient-color-1
 
-	//
-	//	Text chat
-	//
-	#text-chat-container
-		display: block
+		//
+		//	Text chat
+		//
+		#text-chat-container
+			display: block
