@@ -8,9 +8,10 @@
 
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href="css/app.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
 
 </head>
-<body id="template-chat" class="header-fixed">
+<body id="template-register" class="header-fixed">
     <div id="app">
 
         <header id="header">
