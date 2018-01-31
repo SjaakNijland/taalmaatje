@@ -14,14 +14,11 @@ switch ($current_page) {
 
     case 'register':
         include 'views/adduser.php';
+    break;
 
-        break;
-        case 'login':
-            $login = 'login';
+    case 'login':
         include 'views/login.html';
-
-        break;
-
+    break;
 
 }
 
