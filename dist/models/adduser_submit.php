@@ -79,7 +79,7 @@ else
         unset( $_SESSION['form_token'] );
 
         /*** if all is done, say thanks ***/
-        $message = 'New user added Click <a href="../?action=dashboard">here</a> to login';
+        $message = 'New user added Click <a href="../?action=login">here</a> to login';
 
 
     }
