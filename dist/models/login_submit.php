@@ -39,17 +39,17 @@ else
 
     /*** connect to database ***/
     /*** mysql hostname ***/
-    $mysql_hostname = 'localhost';
+    $mysql_hostname = '14270.hosts.ma-cloud.nl';
 
     /*** mysql username ***/
-    $mysql_username = 'root';
+    $mysql_username = 'iamuser';
 
     /*** mysql password ***/
-    $mysql_password = '';
+    $mysql_password = 'iampassword';
 
     /*** database name ***/
     //$mysql_dbname = 'phpro_auth';
-	$mysql_dbname = 'ed';
+	$mysql_dbname = 'taalmaatje';
 
     try
     {
