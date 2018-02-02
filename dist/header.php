@@ -10,7 +10,20 @@
     <link href="css/app.min.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
 <?php
-  $current_page = $_GET['action'] ;
+
+
+
+        $current_page = $_GET['action'] ;
+//
+//  if (isset ($_GET[''])){
+//    $current_page = 'register';
+//  }
+//else{
+//        $current_page = $_GET['action'] ;
+//
+//}
+//
+//echo $current_page;
 ?>
 
 </head>
